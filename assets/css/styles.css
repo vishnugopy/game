@@ -1,0 +1,43 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  padding: auto;
+  border:10px double white;
+
+}
+figure {
+  margin:8px;
+  width: 120px;
+  height: 120px;
+  background:linear-gradient(145deg,lightgrey,blue,white);
+  border:2px white solid;
+}
+
+img {
+  display: none;
+}
+
+.show img {
+  display: block;
+}
+
+body{
+  text-align: center;
+  background:linear-gradient(45deg,black,lightgrey,black);
+  background-repeat: no-repeat;
+  height:auto;
+  width: auto;
+}
+
+h1{
+  color:white;
+}
+
+.invisible{
+visibility: hidden;
+}
